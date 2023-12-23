@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #71f028;
+  align-items: center;
+  padding: 25px;
+}
+.header-logo {
+  font-size: 50px;
+  color: aqua;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+.header-item {
+}
+.header-contact-list {
+  display: flex;
+  gap: 10px;
+}
+.contact-item {
+}
+
+main {
+  height: 71vh;
+  background-color: #29e6dc;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.subtitle {
+  text-align: center;
+  color: blue;
+}
+.text {
+  color: #3f0303;
+}
+
+.footer {
+  background-color: #c730d4;
+}
